@@ -1,0 +1,31 @@
+
+.cherries{
+    display: grid;
+    grid-template-columns: 700px 700px;
+    background-color: grey{gri}
+}
+.img1{width : 400px;
+    grid-column: 1/2;
+    grid-row: 1/3;}
+h1{font-size: 80px;
+   position: relative;
+   left:150px;
+    grid-column: 1/3;
+    grid-row:1/2;
+;}
+.h1{font-size: 80px;;
+    position: relative;
+    left:10px;
+    grid-column: 2/3;
+    grid-row:1/2;}
+h2{color: red;
+font-size: 40px ;
+position: relative;
+bottom:50px;
+grid-column: 2/3;
+grid-row:2/3;
+text-align: center;
+background-color:grey ;}
+.img2{width:400px;
+    grid-column: 2/3;
+grid-row: 1/3;}
