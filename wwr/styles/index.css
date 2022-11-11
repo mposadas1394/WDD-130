@@ -163,6 +163,51 @@ nav{
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    
+}
+.page2{display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+.imgpage2a{grid-column:1/2;
+    grid-row:1/2;
+    width: 400px;
+    }
+    .imgpage2b{grid-column: 1/2;
+        grid-row:2/3;
+        width: 400px;
+    }
+    .imgpage2c{grid-column: 1/2;
+        grid-row:3/4;
+        width: 400px;}
+.arizona{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: #6f7364;
+    padding: 35px;
+    width: 500px;
+    height: 200px;
+}
+.idaho{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #6f7364;
+    padding: 35px;
+    width: 500px;
+    height: 200px;
+}
+.utah{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #6f7364;
+    padding: 35px;
+    width: 500px;
+    height: 200px;
+
+}
+.page2 p{
+    color:white;
+    font-size:0.75em;
 }
 .mountains {
     width: 100%;
