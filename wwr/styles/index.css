@@ -172,6 +172,7 @@ nav{
 .imgpage2a{grid-column:1/2;
     grid-row:1/2;
     width: 400px;
+    height: 300px;
     }
     .imgpage2b{grid-column: 1/2;
         grid-row:2/3;
@@ -194,7 +195,7 @@ nav{
     background-color: #6f7364;
     padding: 35px;
     width: 500px;
-    height: 200px;
+    height: 300px;
 }
 .utah{
     grid-column: 2/3;
