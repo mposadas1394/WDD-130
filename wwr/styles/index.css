@@ -292,6 +292,7 @@ form {
     display: none;      
 }
 .moveDown {
+    
     margin-top: 3em;
 }
 @media screen and (max-width: 900px) {
