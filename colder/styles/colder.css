@@ -1,4 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Russo+One&display=swap');
+body{
+    background-color: #a8dadc;
+}
+h1{
+    font-family: 'Russo One', sans-serif;
+    color:white;
+}
+p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    ;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:5px;
+    justify-content:center;
+    align-items: center;
+}
+.logo{
+    margin-left: 525px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    ;
+}
+#hero-background{
+    background-color: #a7c957;
+    width: 100%;
+    height:400px;
+    grid-column:1/4;
+    grid-row:2/3;
+    border-radius:20px;
+}
+.services{
+    background-color: #a7c957;
+    border-radius:20px;
+    width:400px;
+    height:200px; 
+}
+.air-conditioner{
+grid-column:1/2;
+grid-row:1/2;
+}
+.cold-room{
+    grid-column:2/3;
+    grid-row:1/2;
+}
+.super-market{
+    grid-column:3/4;
+    grid-row:1/2;
+}
+.hero-img{
+    grid-column:1/4;
+    grid-row:2/3;
+    align-self: center;
+    justify-self:center;
+}
 footer img{
     width: 25px;
-    height:25 px;
+    height:25px;
+}
+#market-img{
+    border-radius:20px;
+}
+.hero-img{
+    border-radius: 20px;
+    grid-column: 1/2;
+    width:60%;
+    height: 90%;
+}
+#air{
+grid-column:1/2;
+grid-row: 1/2;
+}
+#room{
+    grid-column:2/3;
+    grid-row: 1/2;
+}
+#super{
+    grid-column:3/4;
+    grid-row: 1/2;
 }
