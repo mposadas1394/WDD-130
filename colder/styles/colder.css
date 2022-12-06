@@ -158,3 +158,36 @@ grid-row: 1/2;
 .paragraph{
     color: white;
 }
+.container-page3{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:20px;
+}
+#cold-page3{grid-column:1/2;
+grid-row:1/2;
+width:100%;
+height:100%;}
+#cold-text{grid-column:2/4;
+    grid-row:1/2;
+    width:100%;
+    height:100%;}
+#hero-page3{grid-column:1/4;
+    grid-row:2/3;
+    width:100%;
+    height:100%;
+}
+.paragraph-hero3{
+    color:#4C5C68
+}
+#twenty-four-service{grid-column:3/4;
+    grid-row:3/4;
+    ;}
+
+#supermarkt-page3{grid-column:3/4;
+    grid-row:3/4;
+    width:100%;
+    height:100%;}
+#supermarket-text{grid-column: 1/3;
+    grid-row:3/4;
+    width:100%;
+    height:100%;}
